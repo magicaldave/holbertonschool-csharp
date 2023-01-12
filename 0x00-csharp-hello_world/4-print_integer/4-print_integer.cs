@@ -4,6 +4,6 @@ class Program
     static void Main(string[] args)
     {
         int number = 972;
-        Console.WriteLine("{0} Battery Street", number);
+        Console.WriteLine(number+" Battery Street");
     }
 }
