@@ -11,7 +11,7 @@ namespace _4_print_hexa
 		int display = 0;
 		for (; display <= 98; display++)
 		{
-			Console.WriteLine("{0} = 0x{0:X}", display);
+			Console.Write("{0} = 0x{0:X}\n", display);
 		}
         }
     }
