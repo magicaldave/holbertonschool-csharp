@@ -20,6 +20,7 @@ namespace Enemies
 			else
 				health = value;
 		}
+		///<summary>Returns the entity's current health</summary>///
 		public int GetHealth()
 		{
 			return this.health;
