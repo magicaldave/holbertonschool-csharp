@@ -22,7 +22,7 @@ class Array {
 		// Check if size is greater than 0. If yes, print the elements of IntArray joined with a space.
 		// If size is 0, print a newline character.
 		// If size is less than 0, print "Size cannot be negative".
-		Console.WriteLine(IntArray != null
+		Console.WriteLine(size > 0
 				  ? string.Join(" ", IntArray)
 				  : size == 0
 				  ? "\n"
