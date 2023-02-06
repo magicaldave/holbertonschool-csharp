@@ -11,7 +11,7 @@ class Array
     /// <param name="array">The array to be printed in reverse order.</param>
     public static void Reverse(int[] array)
     {
-	    if (array != null && array.Length > 1)
+	    if (array != null && array.Length >= 1)
 	    {
 		    System.Array.Reverse(array);
 		    Console.WriteLine(String.Join(" ", array));
