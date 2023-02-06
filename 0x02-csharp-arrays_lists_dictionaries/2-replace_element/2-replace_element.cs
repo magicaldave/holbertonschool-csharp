@@ -16,7 +16,8 @@ class Array
     {
         if (index < 0 || index >= array.Length)
 		Console.WriteLine("Index out of range");
-	array[index] = n;
+	else
+		array[index] = n;
         return array;
     }
 }
