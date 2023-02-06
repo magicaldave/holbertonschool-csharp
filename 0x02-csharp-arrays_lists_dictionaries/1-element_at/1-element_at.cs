@@ -13,7 +13,7 @@ class Array
     /// <returns>The element at the given index, or -1 if the index is out of range.</returns>
     public static int elementAt(int[] array, int index)
 	{
-		if (index < || index > array.Length)
+		if (index < 0 || index > array.Length)
 		{
 			Console.WriteLine("Index out of range");
 			return -1;
